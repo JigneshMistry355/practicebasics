@@ -21,6 +21,12 @@ export default function Home() {
         onClick={() => router.push('/UseEffectUsecase')}
       > UseEffect
       </button>
+      <button 
+        className="border-2 px-8 py-2 rounded-xl"
+        type="button"
+        onClick={() => router.push('/UseCallbackUsecase')}
+      > UseCallback
+      </button>
     </div>
   );
 }
